@@ -1,0 +1,5 @@
+/linebot/*
+/winbotvenv/*
+default
+*.json
+*.ppk
