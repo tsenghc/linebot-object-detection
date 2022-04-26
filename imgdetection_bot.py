@@ -15,13 +15,10 @@ from linebot.models import (ImageMessage, ImageSendMessage, MessageEvent,
                             StickerMessage, TextMessage, TextSendMessage)
 
 app = Flask(__name__)
-access_token = '3yFDTvph2uKgKlNaGOeQRh3ir8xakFgFq\
-    LWTQB8KhJ8ThVqwf83LKOBORTWyrtcCGD9jAiVu7ESJaHukqVp6oiLwnXGhMx+\
-        v+GukGaNQLhKpuEb7zVktAPsTyhJZlAdiv/\
-            CKmsFCrrwRpJFp0q9ZvAdB04t89/1O/w1cDnyilFU= '
+access_token = ''
 line_bot_api = LineBotApi(access_token)
 
-handler = WebhookHandler('6570a1b497e432c1e08a33d7853726b4')
+handler = WebhookHandler('')
 BucketName = 'kohi_bot'
 
 
